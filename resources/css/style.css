@@ -3,6 +3,7 @@ html {
     font-family: Roboto Mono, monospace;
     font-size: 16px;
     color: black;
+    margin: 1rem 20%;
 }
 
 /*Header styles*/
@@ -42,4 +43,24 @@ header nav ul li {
 
 a {
     color: black;
+}
+
+/*Screen size adjustments*/
+
+
+/*About Me Section*/
+
+.aboutme {
+    display: flex;
+}
+
+.aboutmecontainer {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.aboutmeimgcontainer {
+    display: flex;
+    width: 40%;
 }
