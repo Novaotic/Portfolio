@@ -43,6 +43,8 @@ header nav ul {
 header nav ul li {
     padding: 1rem;
     list-style-type: none;
+    text-align: center;
+
 }
 
 a {
@@ -78,6 +80,10 @@ a {
         display: block;
     }
 
+    header nav {
+        justify-content: center;
+    }
+
     .aboutme {
         flex-direction: column;
     }
@@ -93,6 +99,10 @@ a {
     header nav ul {
         justify-content: space-around;
         padding: 0px;
+    }
+
+    header nav ul li {
+        padding: .5rem;
     }
 }
 
