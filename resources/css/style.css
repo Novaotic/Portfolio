@@ -69,6 +69,16 @@ a {
     width: 40%;
 }
 
+.skillscontainer {
+    display: flex;
+}
+
+.skillscontainer img {
+    height: 2.5rem;
+    width: 2.5rem;
+    padding-left: .5rem;
+}
+
 /*Contact Page*/
 
 .contacticons {
@@ -78,5 +88,5 @@ a {
 .contacticons img {
     height: 2rem;
     width: 2rem;
-    padding: .5rem 1rem;
+    padding-left: .5rem;
 }
