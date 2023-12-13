@@ -31,9 +31,13 @@ header {
     font-size: 1.5rem;
 }
 
+header nav {
+    display: flex;
+
+}
+
 header nav ul {
     display: flex;
-    justify-content: end;
 }
 
 header nav ul li {
