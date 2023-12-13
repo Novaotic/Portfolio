@@ -68,3 +68,15 @@ a {
     display: flex;
     width: 40%;
 }
+
+/*Contact Page*/
+
+.contacticons {
+    display: flex;
+}
+
+.contacticons img {
+    height: 2rem;
+    width: 2rem;
+    padding: .5rem 1rem;
+}
