@@ -49,8 +49,52 @@ a {
     color: black;
 }
 
-/*Screen size adjustments*/
+/*Screen size adjustments -- Tablets*/
+@media only screen and (max-width: 900px) and (min-width: 500px) {
+    html {
+        margin: auto;
+    }
 
+    .aboutmecontainer {
+        min-width: 50%;
+    }
+
+    .aboutmeimgcontainer {
+        min-width: 50%;
+    }
+
+    .aboutmeimgcontainer img {
+        max-height: 65%;
+    }
+}
+
+/*Screen size adjustments -- Phones*/
+@media only screen and (max-width: 500px) {
+    html {
+        margin: auto;
+    }
+
+    header {
+        display: block;
+    }
+
+    .aboutme {
+        flex-direction: column;
+    }
+
+    .aboutmecontainer {
+        min-width: 100%;
+    }
+
+    .aboutmeimgcontainer {
+        min-width: 100%;
+    }
+
+    header nav ul {
+        justify-content: space-around;
+        padding: 0px;
+    }
+}
 
 /*About Me Section*/
 
@@ -62,11 +106,13 @@ a {
     display: flex;
     flex-direction: column;
     width: 60%;
+    height: auto;
 }
 
 .aboutmeimgcontainer {
     display: flex;
     width: 40%;
+    height: auto;
 }
 
 
