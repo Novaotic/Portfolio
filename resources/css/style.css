@@ -52,7 +52,7 @@ a {
 }
 
 /*Screen size adjustments -- Tablets*/
-@media only screen and (max-width: 900px) and (min-width: 500px) {
+@media only screen and (max-width: 1080px) and (min-width: 500px) {
     html {
         margin: auto;
     }
